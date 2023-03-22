@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+        
+        <style>
+            
+            body
+            {
+                background-color: #E2E8CE;
+                overflow-x: hidden;
+                margin: 0px;
+                padding: 0px;
+            }
+            #scratch
+            {
+                position: relative;
+                width: 200px;
+                height: 200px;
+                border-radius: 5px;
+                overflow: hidden;
+            }
+            #scratch img {
+                position: relative;
+            }
+            .card_container{
+                width: 100%;
+                margin-top: 50px;
+                display: flex;
+                justify-content: center;
+                /*border: 1px solid black;*/
+            }
+            #card{
+                width: 340px;
+                height: 80vh;
+                border-radius: 15px;
+                box-shadow: 0px 0px 30px rgba(0,0,0,0.2);
+            }
+            #card .text{
+                text-align: center;
+                margin: 80px 0px;
+            }
+            #card #scratch_card{
+                margin: 100px 0px;
+                display: flex;
+                justify-content: center;
+                /*margin-top: 10%;*/
+            }
+        </style>
+    </head>
+    <body>
+        <section class="card_container">
+            <div id="card">
+                <div class="text">
+                    <h1>Navratri Special</h1>
+                    <span>Scratch and win</span>
+                </div>
+                <div id="scratch_card">
+                    <div id="scratch"></div>
+                </div>
+            </div>
+            <!-- <div id="scratch"></div> -->
+        </section>
+        
+
+        <!-- <section class="card">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-12 text-center">
+                        <div class="s_title">
+                        <h1>Navratri Special</h1>
+                        <span>Scratch and win</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 text-center">
+                        <div id="scratch"></div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
+        <script src="wScratchPad.min.js"></script>
+        <script type="text/javascript">
+            var num = Math.round((Math.random()*4)+1);  // upto 5 radom numbers
+            console.log(num);
+
+            $('#scratch').wScratchPad({
+              size        : 60,          // The size of the brush/scratch.
+              bg          : '1.jpg',    // Background (image path or hex color).
+              fg          : '#FF6700',    // Background (image path or hex color).
+            });
+
+
+        </script>
+    </body>
+</html>

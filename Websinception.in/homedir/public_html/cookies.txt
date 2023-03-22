@@ -1,0 +1,11 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+zircona.wgl-demo.net	TRUE	/	FALSE	1999999999	woocommerce_items_in_cart	1
+zircona.wgl-demo.net	TRUE	/	FALSE	1999999999	wp_woocommerce_session_ba9ae54d95c7de38e5e038947ee04fea	054996894b9e8208cb920670145847c7%7C%7C1605963003%7C%7C1605959403%7C%7C673d4ace3e016db28857bf423fa916b2
+www.pinterest.com	TRUE	/	FALSE	1999999999	csrftoken	3330c3568443659fde3c90aac5753683
+.pinterest.com	TRUE	/	FALSE	1999999999	_pinterest_sess	TWc9PSZWZHgrRE9YUHJCYmlzWDU5Y2EyZERJSXRPcGJSVnZBZldnVzZHci94RjRlcVpwRnJMZU1YWll2VFp4MW5YQXJ2d2V4dlZFUzlNSjFGYnVGN245OHA2dm1PaDFEZUpQOHVJV01jRyttSDRWYTFDSjNoM3lMWWRmOFFJMklxWlFkQThqN0JQM0lYdzBvYjFvVThsZm1DSUE9PSZ0aHZHQlArMENMMWdsRWhkbHFlMEp0Q1dKN2c9
+www.pinterest.com	TRUE	/	FALSE	1999999999	samesite	none
+.pinterest.com	TRUE	/	FALSE	1999999999	_auth	0
+www.pinterest.com	TRUE	/	FALSE	1999999999	_routing_id	6952a639-1760-4e87-beb3-09028c5b4a36"
+zircona.wgl-demo.net	TRUE	/	FALSE	1999999999	woocommerce_cart_hash	d115036eaaa2881873adff475f7403d6
+
